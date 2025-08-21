@@ -42,10 +42,6 @@ This repo is intentionally small, easy to review, and friendly for unit testingâ
 
 ---
 
-## Project Structure
-
----
-
 ## Quick Start
 
 ## Build & Run
