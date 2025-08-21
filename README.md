@@ -44,8 +44,6 @@ This repo is intentionally small, easy to review, and friendly for unit testingâ
 
 ## Quick Start
 
-## Build & Run
-
 ## 1) Build
 mvn -q -DskipTests package
 
