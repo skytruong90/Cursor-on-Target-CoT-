@@ -48,18 +48,18 @@ This repo is intentionally small, easy to review, and friendly for unit testingâ
 
 ## Quick Start
 
-### Build & Run
+## Build & Run
 
-# 1) Build
+## 1) Build
 mvn -q -DskipTests package
 
-# 2a) Run on a UDP port (unicast)
+## 2a) Run on a UDP port (unicast)
 java -jar target/cot-watch-1.0.0.jar udp --port 6969
 
-# 2b) Run on a UDP multicast group
+## 2b) Run on a UDP multicast group
 java -jar target/cot-watch-1.0.0.jar udp --port 6969 --mcast 239.2.3.1
 
-# 2c) Batch process from files
+## 2c) Batch process from files
 java -jar target/cot-watch-1.0.0.jar files --in samples --out output \
   --geofence "polygon:37.242,-115.819;37.252,-115.80;37.24,-115.78" \
   --radius "center:37.245,-115.805;km:5" \
