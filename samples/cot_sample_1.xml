@@ -1,0 +1,5 @@
+<event version="2.0" type="a-f-A-M-F" uid="unit-001" time="2025-08-01T12:00:00Z">
+  <point lat="37.244" lon="-115.800" hae="1300" ce="5" le="10"/>
+  <detail speedKts="320"/>
+</event>
+
